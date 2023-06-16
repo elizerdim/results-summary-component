@@ -32,6 +32,12 @@
     --green-teal: hsl(166, 100%, 37%);
     --cobalt-blue: hsl(234, 85%, 45%);
 
+/* colors for the list items backgrounds */
+    --light-red-transparent: hsla(0, 100%, 67%, .1);
+    --orangey-yellow-transparent: hsla(39, 100%, 56%, .1);
+    --green-teal-transparent: hsla(166, 100%, 37%, .1);
+    --cobalt-blue-transparent: hsla(234, 85%, 45%, .1);
+
 /* colors for the background gradient */
     --light-slate-blue: hsl(252, 100%, 67%);
     --light-royal-blue: hsl(241, 81%, 54%);
