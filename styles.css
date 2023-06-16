@@ -78,6 +78,7 @@ body {
 
 .result-section__result {
     background: linear-gradient(var(--violet-blue), var(--persian-blue));
+    color: var(--light-lavender);
     width: 33%;
     aspect-ratio : 1 / 1;
     margin: 0 auto;
