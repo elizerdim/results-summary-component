@@ -55,3 +55,7 @@ body {
     font-size: 1.8rem;
     font-family: "Hanken Grotesk";
 }
+
+.result-section {
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
