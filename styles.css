@@ -58,4 +58,41 @@ body {
 
 .result-section {
     background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    color: white;
+    text-align: center;
+    padding: 1em 0 2em;
+    border-radius: 0 0 2em 2em;
+}
+
+.result-section__title {
+    font-size: 2rem;
+    color: var(--pale-blue);
+    margin-bottom: 1em;
+}
+
+.result-section__result {
+    background: linear-gradient(var(--violet-blue), var(--persian-blue));
+    width: 33%;
+    aspect-ratio : 1 / 1;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: content-box;
+    border-radius: 50%;
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-section__result > strong {
+    font-size: 16vw;
+}
+
+.result-section__second-title {
+    margin: 1em 0 .5em;
+}
+
+.result-section__text {
+    font-size: 1.5rem;
+    margin: 0 4em 0 4em;
 }
