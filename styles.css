@@ -205,6 +205,10 @@ body {
     border-radius: 2em;
 }
 
+.summary-section__button:active {
+    background-color: var(--black-transparent);
+}
+
 .attribution {
     font-size: 1.1rem;
     text-align: center;
@@ -269,5 +273,11 @@ body {
 
     .summary-section__button {
         font-size: 1.5rem;
+    }
+}
+
+@media (any-hover: hover) {
+    .summary-section__button:hover {
+        background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
     }
 }
