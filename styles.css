@@ -279,5 +279,6 @@ body {
 @media (any-hover: hover) {
     .summary-section__button:hover {
         background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+        cursor: pointer;
     }
 }
