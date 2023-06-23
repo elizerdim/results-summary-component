@@ -68,6 +68,8 @@ Users should be able to:
 }
 ```
 
+- Finally, I learned more about how exactly .gitignore file works after trying to make sense of it and hide the unnecessary files at the end of the project.
+
 ### Continued development
 
 I want to learn more about variable fonts and their animation possibilities. I also want to use CSS masking and get more practice with gradients in future projects.
