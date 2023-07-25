@@ -63,6 +63,16 @@ html {
 body {
     font-size: 1.8rem;
     font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .result-section {
